@@ -108,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creatures\Zombie.cs" />
+    <Compile Include="Model\Shot.cs" />
+    <Compile Include="Model\ShotManager.cs" />
     <Compile Include="Objects\Bullet.cs" />
     <Compile Include="Model\Crosshair.cs" />
     <Compile Include="Creatures\Player.cs" />

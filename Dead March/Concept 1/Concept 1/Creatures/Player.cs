@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Concept_1.Model;
 
 namespace Concept_1
 {
@@ -18,6 +19,7 @@ namespace Concept_1
         public Color Color { get; set; }
         public Texture2D texture { get; set; }
         private float _angle;
+        private ShotManager shotManager;
         public float Angle
         
         {
@@ -34,6 +36,16 @@ namespace Concept_1
         public Player()
         {
             
+            sprint = 100;
+            steps = 3;
+            Draaipunt = new Vector2(18, 27);
+        }
+
+        public Player(ShotManager shotManager)
+        {
+            // TODO: Complete member initialization
+            this.shotManager = shotManager;
+
             sprint = 100;
             steps = 3;
             Draaipunt = new Vector2(18, 27);
@@ -99,10 +111,12 @@ namespace Concept_1
 
         public void Fire()
         {
-            
+            shotManager.FirePlayerShot(CalculateShotPosition());
+        }
 
-
-            
+        private Vector2 CalculateShotPosition()
+        {
+            return Position; //Later fixen zodat de shot precies uit de gun komt.
         }
 
         public void RotateLeft()

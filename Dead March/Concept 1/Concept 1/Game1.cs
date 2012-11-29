@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Concept_1.Creatures;
+using Concept_1.Model;
 
 namespace Concept_1
 {
@@ -17,6 +18,7 @@ namespace Concept_1
         Zombie Joe1;
         Crosshair Crosshair1;
         Player Player1;
+        ShotManager shotManager;
 
         Rectangle overlap;
         
@@ -36,8 +38,8 @@ namespace Concept_1
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
-            Player1 = new Player();
+            shotManager = new ShotManager(Content.Load<Texture2D>("bullet"));
+            Player1 = new Player(shotManager);
 
             Player1.Position = new Vector2(200, 200);
             Player1.Color = Color.White;
@@ -106,6 +108,8 @@ namespace Concept_1
             Crosshair1.Update(gameTime);
             Joe1.Update(gameTime);
 
+            shotManager.Update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -139,6 +143,7 @@ namespace Concept_1
                 1, SpriteEffects.None, 1);
 
 
+            shotManager.Draw(spriteBatch);
 
             spriteBatch.End();
 

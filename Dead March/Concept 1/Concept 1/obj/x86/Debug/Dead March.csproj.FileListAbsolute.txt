@@ -18,3 +18,13 @@ C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\ob
 C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.exe
 C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.pdb
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Concept 1.exe
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Concept 1.pdb
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Dead March.csprojResolveAssemblyReference.cache
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.exe
+C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.pdb
