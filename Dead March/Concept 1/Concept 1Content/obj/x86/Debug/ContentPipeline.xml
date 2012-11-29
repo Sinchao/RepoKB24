@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb</Output>
-      <Time>2012-11-26T17:51:50.6685612+01:00</Time>
+      <Time>2012-11-29T14:46:13.0106299+01:00</Time>
     </Item>
     <Item>
       <Source>bullet.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb</Output>
-      <Time>2012-11-26T22:16:53.3521427+01:00</Time>
+      <Time>2012-11-29T14:46:13.01263+01:00</Time>
     </Item>
     <Item>
       <Source>infantry.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb</Output>
-      <Time>2012-11-28T01:39:41.4594805+01:00</Time>
+      <Time>2012-11-29T14:46:13.01263+01:00</Time>
     </Item>
     <Item>
       <Source>joe.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb</Output>
-      <Time>2012-11-26T23:27:24.0921272+01:00</Time>
+      <Time>2012-11-29T14:46:13.01263+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
