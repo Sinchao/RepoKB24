@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb</Output>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb</Output>
       <Time>2012-11-26T17:51:50.6685612+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb</Output>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb</Output>
       <Time>2012-11-26T22:16:53.3521427+01:00</Time>
     </Item>
     <Item>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb</Output>
-      <Time>2012-11-26T23:22:34.3845569+01:00</Time>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb</Output>
+      <Time>2012-11-28T01:39:41.4594805+01:00</Time>
     </Item>
     <Item>
       <Source>joe.png</Source>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb</Output>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb</Output>
       <Time>2012-11-26T23:27:24.0921272+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -43,10 +43,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1Content\</RootDirectory>
-      <LoggerRootDirectory>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\laptopfreek\documents\visual studio 2010\Projects\Concept 1\Concept 1\Concept 1\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

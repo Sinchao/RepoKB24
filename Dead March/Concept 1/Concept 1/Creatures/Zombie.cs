@@ -39,16 +39,16 @@ namespace Concept_1.Creatures
 
         public Zombie(Player player)
         {
+            X = 400;
+            Y = 400;
             Target = player;
             Draaipunt = new Vector2(20, 20);
         }
 
         internal void Update(GameTime gameTime)
         {
-            
-
-            double resX = Target.X - X;
-            double resY = Target.Y - Y;
+            double resX = Target.X - Position.X;
+            double resY = Target.Y - Position.Y;
 
             if (resY == 0)
                 resY = 0.00001;
@@ -61,14 +61,15 @@ namespace Concept_1.Creatures
 
 
             if (resX < 0)
-                ang = (45 - ang) * -1;
+                ang = (135 - ang) * -1;
 
 
 
             _angle = (float)ang;
 
-            Position = new Vector2(X + speed, Y + speed);
+            Position = new Vector2(X, Y);
 
+            
 
             return;
         }
@@ -82,25 +83,6 @@ namespace Concept_1.Creatures
             }
         }
 
-        public void GoUp()
-        {
-            Y -= Speed;
-        }
-
-        public void GoDown()
-        {
-
-            Y += Speed;
-        }
-
-        public void GoLeft()
-        {
-            X -= Speed;
-        }
-
-        public void GoRight()
-        {
-            X += Speed;
-        }
+        
     }
 }

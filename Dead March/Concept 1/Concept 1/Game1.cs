@@ -17,6 +17,8 @@ namespace Concept_1
         Zombie Joe1;
         Crosshair Crosshair1;
         Player Player1;
+
+        Rectangle overlap;
         
 
         public Game1()
@@ -40,16 +42,18 @@ namespace Concept_1
             Player1.Position = new Vector2(200, 200);
             Player1.Color = Color.White;
 
-            Crosshair1 = new Crosshair();
-
-            Crosshair1.Position = new Vector2(200,200);
-            Crosshair1.Color = Color.White;
-
             Joe1 = new Zombie(Player1);
 
             Joe1.Position = new Vector2(200, 200);
             Joe1.Color = Color.White;
             Joe1.Type = "Joe";
+
+            Crosshair1 = new Crosshair();
+
+            Crosshair1.Position = new Vector2(400,400);
+            Crosshair1.Color = Color.White;
+
+            
 
             
 
@@ -94,6 +98,7 @@ namespace Concept_1
 
             checkKeys();
             getCursor();
+            checkCollisions();
 
             // TODO: Add your update logic here
 
@@ -104,6 +109,7 @@ namespace Concept_1
             base.Update(gameTime);
         }
 
+        
         
 
         /// <summary>
@@ -146,6 +152,15 @@ namespace Concept_1
             if (!state.IsKeyDown(Keys.B))
                 Joe1.GoFaster();
 
+
+            if (!state.IsKeyDown(Keys.LeftShift))
+            {
+                Player1.Walk();
+            }
+            if (state.IsKeyDown(Keys.LeftShift))
+            {
+                Player1.Sprint();
+            }
             if (state.IsKeyDown(Keys.S))
             {
                 Player1.GoDown();
@@ -182,5 +197,11 @@ namespace Concept_1
                 Player1.Fire();
             }
         }
+
+        private void checkCollisions()
+        {
+            overlap = new Rectangle();
+        }
+
     }
 }

@@ -1,13 +1,15 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 
 namespace Concept_1
 {
     class Player
     {
-        public int steps = 3;
+        public Boolean visible { get; set; }
+        public Boolean sprinting { get; set; }
+        public int sprint { get; set; }
+        public int steps { get; set; }
         public int mX { get; set; }
         public int mY { get; set; }
         public int X { get; set; }
@@ -15,7 +17,6 @@ namespace Concept_1
         public Vector2 Position { get; set; }
         public Color Color { get; set; }
         public Texture2D texture { get; set; }
-        private float speed;
         private float _angle;
         public float Angle
         
@@ -33,7 +34,9 @@ namespace Concept_1
         public Player()
         {
             
-            Draaipunt = new Vector2(22, 17);
+            sprint = 100;
+            steps = 3;
+            Draaipunt = new Vector2(18, 27);
         }
 
         public void Update(GameTime gameTime)
@@ -41,23 +44,29 @@ namespace Concept_1
 
             
 
+            if (sprint > 0 && sprinting == true)
+            {
+                steps = 5;
+            }
+
+            if (sprint == 0 || sprinting == false)
+            {
+                sprinting = false;
+                steps = 3;
+
+            }
+
+            if (sprinting)
+                sprint -= 10;
+
+            if (!sprinting)
+                sprint += 5;
+            
+
 
             //Position += new Vector2(speed * (float)Math.Cos(Angle), speed * (float)Math.Sin(Angle));
                                  
-            if (X > 750)
-            {
-                X = 750;
-            }
-            if (X < 0)
-            {
-                X = 0;
-                speed = 0;
-            }
-            if (Y > 400)
-            {
-                Y = 400;
-                speed = 0;
-            }
+            
 
             
 
@@ -90,6 +99,9 @@ namespace Concept_1
 
         public void Fire()
         {
+            
+
+
             
         }
 
@@ -124,7 +136,17 @@ namespace Concept_1
             X += steps;
         }
 
-        
+
+
+        internal void Sprint()
+        {
+            sprinting = true;
+        }
+
+        internal void Walk()
+        {
+            sprinting = false;
+        }
     }
     
 }
