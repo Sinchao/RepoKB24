@@ -39,16 +39,16 @@ namespace Concept_1
         {
             // TODO: Add your initialization logic here
             shotManager = new ShotManager(Content.Load<Texture2D>("bullet"));
-            Player1 = new Player(shotManager);
-
-            Player1.Position = new Vector2(200, 200);
-            Player1.Color = Color.White;
-
             Joe1 = new Zombie(Player1);
 
             Joe1.Position = new Vector2(200, 200);
             Joe1.Color = Color.White;
             Joe1.Type = "Joe";
+            
+            Player1 = new Player(shotManager, Joe1);
+
+            Player1.Position = new Vector2(200, 200);
+            Player1.Color = Color.White;
 
             Crosshair1 = new Crosshair();
 

@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb</Output>
-      <Time>2012-11-29T15:10:52.366898+01:00</Time>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb</Output>
+      <Time>2012-11-29T15:10:52+01:00</Time>
     </Item>
     <Item>
       <Source>bullet.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb</Output>
-      <Time>2012-11-29T15:10:52.3728984+01:00</Time>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb</Output>
+      <Time>2012-11-29T15:10:52+01:00</Time>
     </Item>
     <Item>
       <Source>infantry.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb</Output>
-      <Time>2012-11-29T15:10:52.3758985+01:00</Time>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb</Output>
+      <Time>2012-11-29T15:10:52+01:00</Time>
     </Item>
     <Item>
       <Source>joe.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb</Output>
-      <Time>2012-11-29T15:10:52.3778986+01:00</Time>
+      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb</Output>
+      <Time>2012-11-29T15:10:52+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -43,10 +43,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -75,7 +75,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-11-17T10:22:33.7985959+01:00</Value>
+        <Value>2012-11-23T15:18:50.33599+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
