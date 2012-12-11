@@ -28,3 +28,24 @@ C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Con
 C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.exe
 C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.pdb
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Concept 1.exe
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Concept 1.pdb
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.exe
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.pdb
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Concept 1.exe
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Concept 1.pdb
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.exe
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\obj\x86\Debug\Concept 1.pdb
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\background.xnb

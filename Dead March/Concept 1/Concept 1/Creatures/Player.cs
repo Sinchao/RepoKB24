@@ -1,14 +1,13 @@
 ﻿using System;
+using System.Threading;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Concept_1.Model;
-using Concept_1.Creatures;
 
 namespace Concept_1
 {
     class Player
     {
-        public Zombie Zambie { get; set; }
         public Boolean visible { get; set; }
         public Boolean sprinting { get; set; }
         public int sprint { get; set; }
@@ -43,12 +42,10 @@ namespace Concept_1
             Draaipunt = new Vector2(18, 27);
         }
 
-        public Player(ShotManager shotManager, Zombie Zbie)
+        public Player(ShotManager shotManager)
         {
-            
             // TODO: Complete member initialization
             this.shotManager = shotManager;
-            Zambie = Zbie;
 
             sprint = 100;
             steps = 3;
@@ -115,7 +112,7 @@ namespace Concept_1
 
         public void Fire()
         {
-            shotManager.FirePlayerShot(CalculateShotPosition(), this);
+            shotManager.FirePlayerShot(CalculateShotPosition());
         }
 
         private Vector2 CalculateShotPosition()
@@ -125,7 +122,7 @@ namespace Concept_1
 
         public void RotateLeft()
         {
-            _angle -= 1;
+            _angle -=1;
         }
 
         public void RotateRight()
@@ -164,34 +161,6 @@ namespace Concept_1
         internal void Walk()
         {
             sprinting = false;
-        }
-
-        internal Boolean CheckCollide()
-        {
-            BoundingBox bbMin;
-            BoundingBox bbMax;
-
-            Vector3 playerCollide = new Vector3();
-            Vector3 zombieCollide = new Vector3();
-
-
-            //for (int i = texture.Bounds.Top; i < texture.Bounds.Bottom; i++) //Rij bepalen
-            //{
-            //    for (int j = texture.Bounds.Left; j < texture.Bounds.Right; j++) //Kolom bepalen
-            //    {
-            //        for (int k = Zambie.texture.Bounds.Top; k < Zambie.texture.Bounds.Bottom; k++)
-            //        {
-            //            for (int l = Zambie.texture.Bounds.Left; l < Zambie.texture.Bounds.Right; l++)
-            //            {
-            //                Vector2 playerCollide = new Vector2(i, j);
-            //                Vector2 zombieCollide = new Vector2(k, l);
-            //                if (playerCollide == zombieCollide)
-            //                    return true;
-            //            }
-            //        }
-            //    }
-            //}
-            //return false;
         }
     }
     

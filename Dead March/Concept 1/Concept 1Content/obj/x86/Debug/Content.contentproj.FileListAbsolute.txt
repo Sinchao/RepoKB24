@@ -1,3 +1,5 @@
 C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Concept 1\Concept 1\Concept 1Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\mitchell.amasia\Dropbox\School\KB-24\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache
+C:\Users\LaptopFreek\Dropbox\KB-24\Project\GitHubCopy\RepoKB24\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\ResolveAssemblyReference.cache

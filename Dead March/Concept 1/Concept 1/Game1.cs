@@ -15,12 +15,15 @@ namespace Concept_1
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Texture2D background;
+        Rectangle mainFrame;
+
         Zombie Joe1;
         Crosshair Crosshair1;
         Player Player1;
         ShotManager shotManager;
 
-        Rectangle overlap;
+
         
 
         public Game1()
@@ -39,16 +42,16 @@ namespace Concept_1
         {
             // TODO: Add your initialization logic here
             shotManager = new ShotManager(Content.Load<Texture2D>("bullet"));
+            Player1 = new Player(shotManager);
+
+            Player1.Position = new Vector2(200, 200);
+            Player1.Color = Color.White;
+
             Joe1 = new Zombie(Player1);
 
             Joe1.Position = new Vector2(200, 200);
             Joe1.Color = Color.White;
             Joe1.Type = "Joe";
-            
-            Player1 = new Player(shotManager, Joe1);
-
-            Player1.Position = new Vector2(200, 200);
-            Player1.Color = Color.White;
 
             Crosshair1 = new Crosshair();
 
@@ -71,6 +74,9 @@ namespace Concept_1
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            background = Content.Load<Texture2D>("background");
+            mainFrame = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
 
             // TODO: use this.Content to load your game content here
             Player1.texture = Content.Load<Texture2D>("infantry");
@@ -122,11 +128,14 @@ namespace Concept_1
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
             
+            GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, null, null, null);
+            spriteBatch.Draw(background, mainFrame, Color.White);
+
 
             // TODO: Add your drawing code here
-            spriteBatch.Begin();
             spriteBatch.Draw(Player1.texture, Player1.Position, new Rectangle(0, 0, 45, 34), Player1.Color,
                 Player1.Angle,
                 Player1.Draaipunt,

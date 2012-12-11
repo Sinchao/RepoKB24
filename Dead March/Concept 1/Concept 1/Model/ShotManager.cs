@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +9,6 @@ namespace Concept_1.Model
 {
     public class ShotManager
     {
-        public int Delay = 10;
         private Texture2D texture;
         private List<Shot> playerShots = new List<Shot>();//Track shots. shots di buiten de viewport vallen moeten we van de lijst halen en dus niet meer tekenen. Dit is nog NIET geimplementeerd
 
@@ -20,8 +18,9 @@ namespace Concept_1.Model
             this.texture = texture;
         }
 
-        public void FirePlayerShot(Vector2 shotPosition, Player Player1)
+        public void FirePlayerShot(Vector2 shotPosition)
         {
+            
             var shot = new Shot(texture, shotPosition);
             shot.Velocity = new Vector2(0, 1); //Richting.  Later aanpassen om in de juist richting te schieten. Misschien als paramter ontvangen van de player?
             playerShots.Add(shot);
@@ -29,7 +28,6 @@ namespace Concept_1.Model
 
         internal void Update(GameTime gameTime)
         {
-            
             foreach (var shot in playerShots)
             {
                 shot.Update(gameTime);
@@ -43,12 +41,6 @@ namespace Concept_1.Model
             {
                 shot.Draw(spriteBatch);
             }
-        }
-
-
-        public bool checkShot(Shot shot)
-        {
-            return true;
         }
     }
 }

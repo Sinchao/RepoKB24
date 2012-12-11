@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb</Output>
+      <Output>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\Cursor_Crosshair.xnb</Output>
       <Time>2012-11-29T15:10:52+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb</Output>
+      <Output>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\bullet.xnb</Output>
       <Time>2012-11-29T15:10:52+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb</Output>
+      <Output>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\infantry.xnb</Output>
       <Time>2012-11-29T15:10:52+01:00</Time>
     </Item>
     <Item>
@@ -34,8 +34,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb</Output>
+      <Output>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\joe.xnb</Output>
       <Time>2012-11-29T15:10:52+01:00</Time>
+    </Item>
+    <Item>
+      <Source>background.jpg</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2012-12-11T12:45:33.7096438+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -43,10 +52,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\LaptopFreek\Documents\GitHub\RepoKB24\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\LaptopFreek\Documents\Visual Studio 2010\Projects\Dead March\Concept 1\Concept 1\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
